@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;600;700&family=Lato:wght@300;900&family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;0,700;1,400;1,600&family=Poppins:ital,wght@0,300;0,500;0,600;1,300&family=Raleway:wght@800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  background: #2f1893;
+  color: #ffffff;
+}
+
+header {
+  display: flex;
+  margin: 30px 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.nav-items {
+  display: inline-flex;
+  align-items: center;
+  gap: 25px;
+  list-style: none;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  border: none;
+  color: #ffffff;
+  background-color: #482be7;
+  border-radius: 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero-text {
+  margin-top: 30px;
+  margin-bottom: 26px;
+  font-size: 72px;
+  line-height: 80px;
+}
+
+.text-body {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.newsletter-sub input {
+  border-radius: 100px;
+  width: 280px;
+  height: 60px;
+  background-color: #2f1893;
+  padding: 20px;
+  border: 2px solid #ffffff;
+  opacity: 0.2;
+  color: #ffffff;
+  margin-top: 80px;
+}
+
+.newsletter-sub button {
+  width: 120px;
+  height: 60px;
+  border-radius: 30px;
+  background: #25dac5;
+  border: none;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.fiant-text {
+  font-family: "poppins", Helvetica;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: -0.2px;
+  line-height: 19px;
+  opacity: 0.3;
+}
+
+button:hover,
+input[type="email"]:hover,
+.logo:hover {
+  opacity: 1;
+  margin: 15px;
+  cursor: pointer;
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.1);
+  transform-origin: center;
+}
